@@ -1,0 +1,10 @@
+name: Social Media Aggregator
+description: Social media aggregation API module
+package: Social Media
+
+type: module
+core: 8.x
+
+dependencies:
+
+configure: social-aggregator.settings

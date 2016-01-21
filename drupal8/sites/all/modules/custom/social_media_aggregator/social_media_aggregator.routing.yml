@@ -1,0 +1,6 @@
+social_media_aggregator.content:
+  path: '/social_media_aggregator'
+  defaults:
+    _controller: '\Drupal\social_media_aggregator\Controller\SocialMediaAggregatorController::content'
+  requirements:
+    _premission: 'access content'
