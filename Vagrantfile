@@ -98,7 +98,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     p.memory = vconfig['vagrant_memory']
     p.cpus = vconfig['vagrant_cpus']
   end
-  
+
 
   # VMware Fusion.
   config.vm.provider :vmware_fusion do |v, override|
