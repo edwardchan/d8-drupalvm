@@ -3,4 +3,11 @@ social_media_aggregator.content:
   defaults:
     _controller: '\Drupal\social_media_aggregator\Controller\SocialMediaAggregatorController::content'
   requirements:
-    _premission: 'access content'
+    _permission: 'access content'
+
+social_media_aggregator.admin:
+  path: '/admin/config/services/social-aggregator'
+  defaults:
+    _controller: '\Drupal\social_media_aggregator\Controller\SocialMediaAggregatorController::adminOverview'
+  requirements:
+    _permission: 'administer blocks'

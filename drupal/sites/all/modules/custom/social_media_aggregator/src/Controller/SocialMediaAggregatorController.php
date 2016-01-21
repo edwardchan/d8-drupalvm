@@ -15,6 +15,16 @@ class SocialMediaAggregatorController extends ControllerBase {
 			'#markup' => $this->t('Social Media Aggregator Content'),
 		);
 	}
+
+	public function adminOverview() {
+		return array(
+			'#markup' => $this->t('Social Media Aggregator Admin Overview'),
+		);
+	}
+
+	public function pageTitle() {
+		return 'Social Media Aggregator Page Title';
+	}
 }
 
 ?>
