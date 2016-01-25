@@ -1,0 +1,15 @@
+name: Nodejs Watchdog
+type: module
+description: 'Adds watchdog messages to the dblog page in realtime.'
+package: Nodejs
+# core: 8.x
+dependencies:
+  - nodejs
+  - nodejs_ajax
+  - dblog
+
+# Information added by Drupal.org packaging script on 2016-01-22
+version: '8.x-1.0-beta1'
+core: '8.x'
+project: 'nodejs'
+datestamp: 1453505643

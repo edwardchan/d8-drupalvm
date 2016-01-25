@@ -1,0 +1,13 @@
+name: Nodejs Notify
+type: module
+description: 'Enables displaying realtime notification from Node.js.'
+package: Nodejs
+# core: 8.x
+dependencies:
+  - nodejs
+
+# Information added by Drupal.org packaging script on 2016-01-22
+version: '8.x-1.0-beta1'
+core: '8.x'
+project: 'nodejs'
+datestamp: 1453505643
