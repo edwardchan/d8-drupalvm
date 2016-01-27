@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Contains \Drupal\example\Form\ExampleForm.
+ * Contains \Drupal\social_media_aggregator\Form\SocialMediaAggregatorForm.
  */
 
 namespace Drupal\example\Form;
