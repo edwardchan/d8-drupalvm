@@ -18,7 +18,7 @@ class SocialMediaAggregatorForm extends FormBase {
    * {@inheritdoc}
    */
   public function getFormId() {
-    return 'socialmediaaggregator_form';
+    return 'social_media_aggregator_admin';
   }
 
   /**
